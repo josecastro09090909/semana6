@@ -1,0 +1,7 @@
+Al enviar una petición POST a la ruta /registro con un objeto JSON que contiene
+los campos nombre y mensaje, el servidor responde con un objeto JSON confirmando
+que los datos fueron recibidos correctamente.
+
+La respuesta incluye el estado "Datos recibidos" junto con el nombre y el mensaje
+enviados por el usuario, lo que demuestra que Express puede leer correctamente
+los datos desde req.body usando express.json().
